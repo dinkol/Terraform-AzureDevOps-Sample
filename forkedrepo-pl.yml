@@ -16,7 +16,7 @@ stages:
         backendServiceArm: 'ADO_TF_connection'
         backendAzureRmResourceGroupName: 'rg-dinko'
         backendAzureRmStorageAccountName: 'newtfstatefiledinko'
-        backendAzureRmContainerName: 'tfstatefiles'
+        backendAzureRmContainerName: 'newtfstatefiles'
         backendAzureRmKey: 'tfazuredevops.tfstate'
     - task: TerraformTaskV4@4
       displayName: Tf validate
