@@ -5,4 +5,5 @@ terraform {
     container_name       = "newtfstatefiles"
     key                  = "forked.terraform.tfstate"
   }
+use_oidc = true
 }
